@@ -4,13 +4,13 @@ from streamlit_option_menu import option_menu
 
 # loading models
 diabetes_model = pickle.load(
-    open('C:/Users/balun/My Python Stuff/Multi-Disease-Classification-ML/Models/diabetes_model.sav', 'rb'))
+    open('Models/diabetes_model.sav', 'rb'))
 
 heart_disease_model = pickle.load(
-    open('C:/Users/balun/My Python Stuff/Multi-Disease-Classification-ML/Models/Heart_Disease_model.sav', 'rb'))
+    open('Models/Heart_Disease_model.sav', 'rb'))
 
 parkinsons_model = pickle.load(
-    open('C:/Users/balun/My Python Stuff/Multi-Disease-Classification-ML/Models/parkinsons_model.sav', 'rb'))
+    open('Models/parkinsons_model.sav', 'rb'))
 
 st.set_page_config(layout="centered", initial_sidebar_state="expanded")
 
